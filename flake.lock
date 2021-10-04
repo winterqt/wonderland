@@ -43,13 +43,17 @@
         ]
       },
       "locked": {
-        "narHash": "sha256-/9EqNzy7TiPMPboBg07pAQodCZTfG5DzlcdKDVhVh+E=",
-        "path": "/Users/winter/rust/newmail",
-        "type": "path"
+        "lastModified": 1633309492,
+        "narHash": "sha256-ZCrsMdjFtUf6kJUeFzNMopWdVcg2CMe/E6M3+WIx5DE=",
+        "owner": "winterqt",
+        "repo": "newmail",
+        "rev": "c237a4f495f7c09fc8801a85d2e40812784f847d",
+        "type": "github"
       },
       "original": {
-        "path": "/Users/winter/rust/newmail",
-        "type": "path"
+        "owner": "winterqt",
+        "repo": "newmail",
+        "type": "github"
       }
     },
     "nix-darwin": {

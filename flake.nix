@@ -4,7 +4,7 @@
   inputs.nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
   inputs.home-manager.url = "github:nix-community/home-manager";
   inputs.home-manager.inputs.nixpkgs.follows = "nixpkgs";
-  inputs.newmail.url = "/Users/winter/rust/newmail";
+  inputs.newmail.url = "github:winterqt/newmail";
   inputs.newmail.inputs.nixpkgs.follows = "nixpkgs";
 
   outputs = inputs@{ self, nixpkgs, nix-darwin, home-manager, ... }: {
