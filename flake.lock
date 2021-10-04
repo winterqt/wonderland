@@ -1,0 +1,102 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1631561581,
+        "narHash": "sha256-3VQMV5zvxaVLvqqUrNz3iJelLw30mIVSfZmAaauM3dA=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "7e5bf3925f6fbdfaf50a2a7ca0be2879c4261d19",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "home-manager": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1631740142,
+        "narHash": "sha256-FnwtaJ+fZw2QzsCqGJW4kJd9hXiPxPgfi+9dwratk28=",
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "rev": "371576cdc2580ba93a38e28da8ece2129f558815",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "type": "github"
+      }
+    },
+    "newmail": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "narHash": "sha256-/9EqNzy7TiPMPboBg07pAQodCZTfG5DzlcdKDVhVh+E=",
+        "path": "/Users/winter/rust/newmail",
+        "type": "path"
+      },
+      "original": {
+        "path": "/Users/winter/rust/newmail",
+        "type": "path"
+      }
+    },
+    "nix-darwin": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1632879299,
+        "narHash": "sha256-zMgHIl6aWshNDHlfzy5rS6xhlo4SLWox9BEgXrPNxXI=",
+        "owner": "winterqt",
+        "repo": "nix-darwin",
+        "rev": "c3761f50c6a0a10f7a9d5403fad13ad9328cf8ae",
+        "type": "github"
+      },
+      "original": {
+        "owner": "winterqt",
+        "repo": "nix-darwin",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1631759236,
+        "narHash": "sha256-iY+sjnHQuRWLLMaJotv56+41E4QA16hM6iyGRCpnFLE=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "cbb95673926205f7a54af97ecfa32bc7be917603",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "home-manager": "home-manager",
+        "newmail": "newmail",
+        "nix-darwin": "nix-darwin",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
