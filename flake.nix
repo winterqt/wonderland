@@ -6,6 +6,8 @@
   inputs.home-manager.inputs.nixpkgs.follows = "nixpkgs";
   inputs.newmail.url = "github:winterqt/newmail";
   inputs.newmail.inputs.nixpkgs.follows = "nixpkgs";
+  inputs.secrets.url = "/Users/winter/wonderland/secrets.nix";
+  inputs.secrets.flake = false;
 
   outputs = inputs@{ self, nixpkgs, nix-darwin, home-manager, ... }: {
     darwinConfigurations.snowball = nix-darwin.lib.darwinSystem {

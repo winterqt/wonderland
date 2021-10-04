@@ -1,7 +1,7 @@
 flakes:
 { config, lib, pkgs, ... }:
 
-let secrets = import ./secrets.nix; in
+let secrets = import flakes.secrets; in
 
 {
   home.packages = with pkgs; [

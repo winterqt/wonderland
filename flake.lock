@@ -97,7 +97,20 @@
         "home-manager": "home-manager",
         "newmail": "newmail",
         "nix-darwin": "nix-darwin",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "secrets": "secrets"
+      }
+    },
+    "secrets": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-jC3NIigMKlx2JK+rzn/4BUHoMksBGOpo6N1nN9A3vU0=",
+        "path": "/Users/winter/wonderland/secrets.nix",
+        "type": "path"
+      },
+      "original": {
+        "path": "/Users/winter/wonderland/secrets.nix",
+        "type": "path"
       }
     }
   },
