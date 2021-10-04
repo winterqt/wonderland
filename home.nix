@@ -80,6 +80,7 @@ let secrets = import flakes.secrets; in
       "files.insertFinalNewline" = true;
 
       "rust-analyzer.experimental.procAttrMacros" = true;
+      "rust-analyzer.checkOnSave.command" = "clippy";
     };
     extensions = with pkgs.vscode-extensions; [
       dracula-theme.theme-dracula
