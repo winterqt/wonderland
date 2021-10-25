@@ -17,6 +17,12 @@ let secrets = import flakes.secrets; in
     (flakes.newmail.packages.aarch64-darwin.newmail.override secrets.newmail)
     jq
     tokei
+    redis
+    youtube-dl
+    tealdeer
+    gnupg
+    curl
+    wget
   ];
   # thanks, reckenrode! (https://github.com/nix-community/home-manager/issues/1341#issuecomment-882908749)
   home.activation = {
@@ -99,6 +105,7 @@ let secrets = import flakes.secrets; in
           }
         )
         { })
+        eamodio.gitlens
     ];
   };
   home.sessionVariables = {

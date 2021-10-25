@@ -6,23 +6,12 @@
   inputs.home-manager.inputs.nixpkgs.follows = "nixpkgs";
   inputs.newmail.url = "github:winterqt/newmail";
   inputs.newmail.inputs.nixpkgs.follows = "nixpkgs";
-  inputs.secrets.url = "/Users/winter/wonderland/secrets.nix";
+  inputs.secrets.url = "path:/Users/winter/wonderland/secrets";
   inputs.secrets.flake = false;
 
   outputs = inputs@{ self, nixpkgs, nix-darwin, home-manager, ... }: {
     darwinConfigurations.snowball = nix-darwin.lib.darwinSystem {
       modules = [
-        {
-          nixpkgs.overlays = [
-            (self: super:
-              {
-                nixUnstable = super.nixUnstable.override
-                  {
-                    patches = [ ./unset-is-macho.patch ];
-                  };
-              })
-          ];
-        }
         ((import ./configuration.nix) inputs)
         home-manager.darwinModules.home-manager
         {

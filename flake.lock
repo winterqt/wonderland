@@ -22,11 +22,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1631740142,
-        "narHash": "sha256-FnwtaJ+fZw2QzsCqGJW4kJd9hXiPxPgfi+9dwratk28=",
+        "lastModified": 1634939539,
+        "narHash": "sha256-m+RC6it1doMjq5U5e1B36thzOOBc1GF4tVLK2SNMvzg=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "371576cdc2580ba93a38e28da8ece2129f558815",
+        "rev": "8278c14f5f8725e1b5936d6f54e63d4626aae98c",
         "type": "github"
       },
       "original": {
@@ -78,11 +78,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1631759236,
-        "narHash": "sha256-iY+sjnHQuRWLLMaJotv56+41E4QA16hM6iyGRCpnFLE=",
+        "lastModified": 1634919341,
+        "narHash": "sha256-iYTckx+vxrGskDsI7US/3N1CDGYjnFl2Wh6gkLBmAKI=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "cbb95673926205f7a54af97ecfa32bc7be917603",
+        "rev": "1cab3e231b41f38f2d2cbf5617eb7b88e433428a",
         "type": "github"
       },
       "original": {
@@ -104,12 +104,12 @@
     "secrets": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-jC3NIigMKlx2JK+rzn/4BUHoMksBGOpo6N1nN9A3vU0=",
-        "path": "/Users/winter/wonderland/secrets.nix",
+        "narHash": "sha256-d9b7FowbM/kXxVWiJmWunyWxH6qJ6Glbqe5BjIkvXG0=",
+        "path": "/Users/winter/wonderland/secrets",
         "type": "path"
       },
       "original": {
-        "path": "/Users/winter/wonderland/secrets.nix",
+        "path": "/Users/winter/wonderland/secrets",
         "type": "path"
       }
     }
